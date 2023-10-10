@@ -1,0 +1,359 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {	
+.slider-text {
+width: 991px;
+}
+.main-menu ul li a {
+	padding: 32px 6px;
+}
+.sec-title h1,
+.consulting-form > h1 ,
+.about-us-short h1,
+.call-to-action-text2 h2{
+	font-size: 28px;
+}
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+body {
+font-size: 15px;
+line-height: 24px;
+}	
+h1 {
+font-size: 22px;
+}
+h2 {
+font-size: 18px;
+}
+h3 {
+font-size: 16px;
+}
+.main-menu ul li a {
+	padding: 32px 4px;
+}
+.logo {
+	text-align: center;
+	padding-bottom: 0;
+}
+.header-left li {
+	padding-right: 2px;
+}
+.contact-number::before {
+	transform: skewX(0deg);
+	left: -200px;
+}
+.contact-number{
+text-align:center;	
+}
+.slider-text {
+width: 100%;
+}
+.footer-wedget-four {
+	margin-top: 30px;
+}
+.menu-icon {
+	position: absolute;
+	float: right;
+}
+.search-forum {
+	left: -230px;
+	top: 30px;
+}
+.team-details-img {
+	margin-bottom: 30px;
+}
+.menu-icon .site-search {
+	padding-top: 0px;
+}
+.payment-method {
+	padding-left: 0;
+}
+.contact-page-sec .single-input-fieldsbtn{margin-top:20px;}
+.product-sec .col-md-4.col-sm-6:nth-child(2n+1) {
+	clear: both;
+}
+.sidebar {
+	margin-top: 40px;
+}
+.slider-wrapper {
+	width: 100%;
+}
+.sec-title h1,
+.consulting-form > h1 ,
+.about-us-short h1,
+.call-to-action-text2 h2{
+	font-size: 26px;
+}
+.why-us-inner-text h2 a {
+	font-size: 24px;
+}
+.consulting-form {
+	padding-left: 0;
+}
+.consulting-form-sec {
+	background-image: none;
+}
+.consulting-form::before {
+	left: -30px;
+}
+.sec-title {
+	margin: 0 0px 50px 0px;
+}
+.countup-inner.pull-right {
+	float: left !important;
+}
+.countup-inner-text h2 {
+	font-size: 28px;
+}
+.about-us-short {
+	margin-bottom: 40px;
+}
+.about-us-thumb img {
+	width: 100%;
+}
+.all-team .owl-controls {
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	text-align: center;
+	width: 100%;
+}
+.team-sec {
+	margin-bottom: 40px;
+}
+.all-team .owl-controls .owl-prev {
+left: 0px;
+}
+.consulting-form {
+	padding-left: 0;
+}
+.single-client img {
+	width: 100%;
+}
+.faq-sec.faq-style2 {
+	margin-top: 40px;
+}
+
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+body {
+font-size: 14px;
+line-height: 24px;
+}	
+h1 {
+font-size: 22px;
+}
+h2 {
+font-size: 18px;
+}
+h3 {
+font-size: 16px;
+}
+.pt-100{padding-top:60px}
+.pb-100{padding-bottom:60px}
+.pb-70{padding-bottom:40px}
+.contact-inner {
+	text-align: center;
+}
+.faq-sec.faq-style2 {
+	margin-top: 40px;
+}
+.single-client img {
+	width: 100%;
+}
+.call-to-action-text2 {
+	text-align: center;
+}
+.call-to-action-text2 a.btn {
+	float: none;
+}
+.consulting-form-sec {
+	background-image: none;
+}
+.header-left li{padding-right:15px}
+.consulting-form {
+	padding-left: 0;
+}
+.consulting-form::before {
+	left: -30px;
+}	
+.countup-inner-text h2 {
+	font-size: 28px;
+}
+.sec-title h1,
+.consulting-form > h1 ,
+.about-us-short h1,
+.call-to-action-text2 h2{
+	font-size: 26px;
+}
+.slider-text h1 {
+	font-size: 26px;
+	line-height: 30px;
+}
+.about-us-thumb img {
+	width: 100%;
+}
+.about-us-short {
+	margin-bottom: 40px;
+}
+.team-details-img img {
+	width: 100%;
+	margin-bottom: 30px;
+}
+.contact-inner .media-left {
+float:none;
+margin-bottom:20px;
+}
+.footer-wedget-four,
+.footer-wedget-newsletter {
+	margin-top: 30px;
+}
+.vedio-inner {
+	margin-top: 40px;
+}
+.footer-widget-menu {
+	margin-top: 30px;
+}
+.menu-icon {
+	display: none;
+}
+.header-tp-right {
+	display: inline-block;
+	text-align: center;
+	margin: 0px auto;
+	width: 100%;
+}
+.call-to-action-text h2 {
+	font-size: 16px;
+}
+.sidebar {
+	margin-bottom: 40px;
+}
+.header-right {
+	float: none;
+	text-align: center;
+	width: 100%;
+}
+.slider-text {
+width: 80%;
+}
+.countup-inner.pull-right {
+	float: left !important;
+}
+.logo {
+	padding-top: 50px;
+	text-align: center;
+}
+.header-left,
+.contact-number {
+text-align:center;
+}
+.about-skill-sec {
+	margin-top: 40px;
+}
+.sec-title {
+	margin: 0 0px 50px 0px;
+}
+.update-cart-left,
+.update-cart-right {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.payment-method,
+.billing-form.shipping-details {
+	padding-left: 0;
+}
+.comment-form.contact-field {
+	margin-top: 40px;
+}
+.contact-page-sec .single-input-fieldsbtn{margin-top:20px;}
+.faq-style1 {
+	margin-bottom: 40px;
+}
+.top-seller-product .product-item {
+	margin-bottom: 40px;
+}
+.project-time.table.table-responsive {
+	border: none;
+}
+
+.product-sec .product-item {
+	text-align: center;
+}
+.page-heading h1 {
+	font-size: 24px;
+}
+.all-team .owl-controls {
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	text-align: center;
+	width: 100%;
+}
+.team-sec {
+	margin-bottom: 40px;
+}
+.all-team .owl-controls .owl-prev {
+left: 0px;
+}
+.soical-profile, .soical-profile li {
+	display: inline-block;
+	text-align: center;
+	float: none;
+	margin: 0px auto;
+}
+.appoitment-button {
+	display: none;
+}
+.header-right-div {
+	text-align: center;
+}
+.slider-wrapper {
+	width: 100%;
+}
+.why-us-inner-text h2 a {
+	font-size: 24px;
+}
+.mean-container .mean-nav ul li a i{
+	display:none;
+}
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 492px) {
+.slider-text li a{
+	margin-bottom:10px;
+}
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 550px) {
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 390px) {
+.sec-title h1 {
+  font-size:28px;
+}
+
+
+}
+@media only screen and (min-width: 0px) and (max-width: 359px) {
+
+
+}

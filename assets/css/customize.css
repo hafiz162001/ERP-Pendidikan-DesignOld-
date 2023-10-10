@@ -1,0 +1,337 @@
+/* import */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+html{
+	font-size:14px;
+}
+/* Scrollbar */
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	border-radius: 3px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #353531;
+	border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #353531;
+	opacity: 0.8;
+}
+
+/* Background */
+.bg-black-el {
+	background: #353531;
+}
+
+.bg-red-el {
+	background: #f34213;
+}
+
+.bg-orange-el {
+	background: #ff8552;
+}
+
+.bg-yellow-el {
+	background: #faa300;
+}
+
+.bg-grey-el {
+	background: #f0f0f0;
+}
+
+.bg-white-el {
+	background: #f4f6ff;
+}
+
+.bg-blue-el {
+	background: #0a5894;
+}
+
+/* Text Color */
+.text-black-el,
+a.text-black-el {
+	color: #353531;
+}
+
+.text-red-el,
+a.text-red-el {
+	color: #f34213;
+}
+
+.text-orange-el,
+a.text-orange-el {
+	color: #ff8552;
+}
+
+.text-yellow-el,
+a.text-yellow-el {
+	color: #faa300;
+}
+
+.text-grey-el,
+a.text-grey-el {
+	color: #f0f0f0;
+}
+
+.text-white-el {
+	color: #f4f6ff;
+}
+
+a.text-white-el {
+	color: #f4f6ff;
+}
+
+/* Font */
+.poppins-300 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+}
+
+.poppins-400 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+}
+
+.poppins-500 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+
+.poppins-600 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+}
+
+.poppins-700 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+}
+.poppins-800 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 800;
+}
+.opensans-300 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+}
+.opensans-400 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+}
+.opensans-600 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+}
+.opensans-700 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+}
+.opensans-800 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+}
+
+.montserrat-300 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+}
+.montserrat-400 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+}
+.montserrat-500 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+}
+.montserrat-600 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+}
+.montserrat-700 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+}
+/* Font size */
+.text-size-1 {
+	font-size: 0.875rem;
+}
+
+.text-size-2 {
+	font-size: 0.938rem;
+}
+
+.text-size-3 {
+	font-size: 1rem
+}
+
+.text-size-4 {
+	font-size: 1.063rem;
+}
+
+.text-size-5 {
+	font-size: 1.125rem;
+}
+
+.text-size-6 {
+	font-size: 1.188rem;
+}
+.text-size-7 {
+	font-size: 1.25rem;
+}
+.text-size-8 {
+	font-size: 1.313rem;
+}
+.text-size-9 {
+	font-size: 1.375rem;
+}
+.text-size-10 {
+	font-size: 1.438rem;
+}
+.text-size-11 {
+	font-size: 1.5rem;
+}
+.text-size-12 {
+	font-size: 1.563rem;
+}
+.text-size-13 {
+	font-size: 1.625rem;
+}
+.text-size-14 {
+	font-size: 1.688rem;
+}
+.text-size-15 {
+	font-size: 1.75rem;
+}
+.text-size-16 {
+	font-size: 1.813rem;
+}
+/* Button */
+
+.btn-hover {
+	font-weight: 600;
+	color: #fff;
+	cursor: pointer;
+	padding: 8px 24px;
+	text-align: center;
+	border: none;
+	background-size: 300% 100%;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	border-radius: 50px;
+	moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:hover {
+	background-position: 100% 0;
+	moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:focus {
+	outline: none;
+}
+
+/* Button Inline */
+
+.btn-black-el {
+	background: #353531;
+}
+
+.btn-red-el {
+	background: #f34213;
+}
+
+.btn-orange-el {
+	background: #ff8552;
+}
+
+.btn-yellow-el {
+	background: #faa300;
+}
+
+.btn-grey-el {
+	background: #f0f0f0;
+}
+
+.btn-white-el {
+	background: #f4f6ff;
+}
+
+.btn-blue-el {
+	background: #0a5894;
+}
+
+/* Button Outline */
+.btn-outline-black-el {
+	border: 2px solid #353531;
+}
+
+.btn-outline-red-el {
+	border: 2px solid #f34213;
+}
+
+.btn-outline-orange-el {
+	border: 2px solid #ff8552;
+}
+
+.btn-outline-yellow-el {
+	border: 2px solid #faa300;
+}
+
+.btn-outline-grey-el {
+	border: 2px solid #f0f0f0;
+}
+
+.btn-outline-white-el {
+	border: 2px solid #f4f6ff;
+}
+
+.btn-outline-blue-el {
+	border: 2px solid #0a5894;
+}
+
+
+/* Custom Form control */
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  /* border-color: #faa300; */
+  border: 1px solid #353531;
+  border:0px solid transparent;
+  /* box-shadow: 1px 0.2px 2px 2px #faa300; */
+  box-shadow: 0 0 5px #353531;
+  outline: 0 none;
+}
+
+a.no-decoration{
+	text-decoration:none;
+}

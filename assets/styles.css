@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+/*fonts*/
+.poppins-300{
+    font-family: 'Poppins', sans-serif;
+    font-weight:300;
+}
+.poppins-400{
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+}
+.poppins-500{
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+}
+.poppins-600{
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+}
+.poppins-700{
+    font-family: 'Poppins', sans-serif;
+    font-weight:700;
+}
+
+.nsans-400{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: -s400;
+}
+.nsans-500{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+}
+.nsans-700{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+}
+.text-size-1{
+    font-size:14px;
+}
+.text-size-2{
+    font-size:15px;
+}
+.text-size-3{
+    font-size:16px;
+}
+.text-size-3{
+    font-size:17px;
+}
+.text-size-4{
+    font-size:17px;
+}
+.text-size-5{
+    font-size:18px;
+}
+.rounded-pill{
+    border-radius:50px;
+}
+.rounded-pill-2{
+    border-radius:25px;
+}
+/* text */
+
+.text-hitam-custom{
+    color:#1e266d;
+}
+.text-oren-custom{
+    color:#faa300;
+}
+.text-blue-custom{
+    color:#3751ff;
+}
+
+/* Bacgkround */
+.bg-grey-custom{
+    background:#f8fbff;
+}
+.bg-blue-custom{
+    background:#3751ff;
+}
+.bg-oren-custom{
+    background:#faa300;
+}
+.bg-hitam-custom{
+    background:#1e266d;
+}
+.border-oren-custom{
+    border-color: #faa300;
+    border-style: solid;
+    border-width: 2px;
+}
+.border-blue-custom{
+    border-color: #3751ff;
+    border-style: solid;
+    border-width: 2px;
+}
+.letter-spacing{
+    letter-spacing:0.5px;
+}
+.text-shadow{
+    text-shadow: 0 1px 1px rgba(0,0,0,0.06), 
+    0 2px 2px rgba(0,0,0,0.06), 
+    0 4px 4px rgba(0,0,0,0.06), 
+    0 8px 8px rgba(0,0,0,0.06);
+    
+}
+
+.text-shadow-2{
+    text-shadow: 0 1px 2px rgba(0,0,0,0.04), 
+    0 2px 4px rgba(0,0,0,0.04), 
+    0 4px 8px rgba(0,0,0,0.04), 
+    0 8px 16px rgba(0,0,0,0.04),
+    0 16px 32px rgba(0,0,0,0.04), 
+    0 32px 64px rgba(0,0,0,0.04);
+}
+
+.box-shadow{
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), 
+    0 2px 4px rgba(0,0,0,0.05), 
+    0 4px 8px rgba(0,0,0,0.05), 
+    0 8px 16px rgba(0,0,0,0.05),
+    0 16px 32px rgba(0,0,0,0.05), 
+    0 32px 64px rgba(0,0,0,0.05);
+}
+
+.box-shadow-2{
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04), 
+    0 2px 4px rgba(0,0,0,0.04), 
+    0 4px 8px rgba(0,0,0,0.04), 
+    0 8px 16px rgba(0,0,0,0.04),
+    0 16px 32px rgba(0,0,0,0.04), 
+    0 32px 64px rgba(0,0,0,0.04);
+}
+.card-custom{
+    border-radius:10px;
+    border-color:transparent;
+    -webkit-box-shadow: 0px 1px 11px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 11px -3px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 11px -3px rgba(0,0,0,0.75);
+}
+
+.filter-grayscale{
+    filter: grayscale(10);
+}
+.navbar.scrolled {
+    background-color: yellow !important;
+    transition: background-color 200ms linear;
+  }
+
+  .dropdown-toggle::after {
+    display: none;
+}   
+.slick-slide {
+    outline: none;
+}
+.another-card
+{
+    transition: 0.2s;
+    border:1px solid transparent;
+    box-shadow:3px 3px 10px #616161;
+    border-radius:10px;
+    position: relative;
+    background:#fff;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+}
+
+}
+.filter-grayscale-2{
+    filter: grayscale(100%);
+}
+.navbar.scrolled {
+    background-color: yellow !important;
+    transition: background-color 200ms linear;
+  }
+
+  .dropdown-toggle::after {
+    display: none;
+}   
+.text-carousel {
+    position: absolute;
+    top: 140px;
+    left:35%;
+    letter-spacing: 1.5px
+}
+
+.text-carousel-sub {
+    position: absolute;
+    top: 185px;
+    left: 15%;
+    letter-spacing: 1px;
+    width: 700px
+}
+.filter-bg {
+    filter: brightness(40%)
+}
+.carousel-indicators.not-active{
+    display:none;
+}
+.filter-grayscale{
+    filter: grayscale(100%);
+}
+
+
+.megamenu {
+    position: static;
+  }
+  
+  .megamenu .dropdown-menu {
+    background: none;
+    border: none;
+    width: 100%;
+  }
+  

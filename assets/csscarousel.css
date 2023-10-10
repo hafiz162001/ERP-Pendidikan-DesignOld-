@@ -1,0 +1,21 @@
+.padding-sesi{
+padding:60px 0;
+}
+.brand-carousel {
+margin-top: 15%;
+}
+.owl-dots {
+text-align: center;
+margin-top: 4%;
+}
+.owl-dot {
+display: inline-block;
+height: 15px !important;
+width: 15px !important;
+opacity: 0.8;
+border-radius: 50%;
+margin: 0 5px;
+}
+.owl-dot.active {
+background-color: #000 !important;
+}

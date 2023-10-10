@@ -1,0 +1,30 @@
+#client-logos .item {
+    margin: 1px;
+}
+.cover-wrapper {
+    padding: 75px;
+}
+.client-inners img {
+    height: 100%;
+    object-fit: contain;
+}
+.client-inners {
+    height: 85px;
+    text-align: center;
+    padding: 8px;
+}
+.owl-nav img {
+    width: 34px;
+}
+.owl-prev img {
+    position: absolute;
+    left: -38px;
+    top: 50%;
+    margin-top: -20px;
+}
+.owl-next img {
+    position: absolute;
+    right: -38px;
+    top: 50%;
+    margin-top: -20px;
+}
